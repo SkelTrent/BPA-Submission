@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#faf5ed">
+    <meta name="description" content="Join the Marlowby founding waitlist for launch pricing and first access to Box 001 from New Orleans.">
+    <meta property="og:title" content="Join the Waitlist — Marlowby">
+    <meta property="og:description" content="Join the Marlowby founding waitlist for launch pricing and first access to Box 001 from New Orleans.">
+    <meta property="og:type" content="website">
+    <title>Join the Waitlist — Marlowby</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400..800;1,400&amp;family=DM+Serif+Display:ital@0;1&amp;display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Marlowby home">marlowby<span>.</span></a>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="route.html">The route</a>
+        <a href="plans.html">Plans</a>
+        <a href="about.html">About</a>
+        <a class="nav-cta" href="join.html" aria-current="page">Join the waitlist</a>
+      </nav>
+      <div class="header-tools">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="menu-toggle-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <header class="page-header">
+        <div class="inner">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Join the waitlist</span></nav>
+          <h1>Join <em>the waitlist.</em></h1>
+          <p class="lede">Be the first to hear when Marlowby launches. Joining the list is free and is not a purchase.</p>
+        </div>
+      </header>
+
+      <section class="section section-sm" id="join">
+        <div class="inner two-col">
+          <div>
+            <ul class="ticks" style="margin-top:0">
+              <li>First access to Box 001 from New Orleans</li>
+              <li>Founding price kept while you stay subscribed</li>
+              <li>A say in which cities come next</li>
+              <li>One launch email, and no spam.</li>
+            </ul>
+            <div class="next-steps">
+              <h2>What happens next</h2>
+              <ol><li>You join the founding waitlist.</li><li>We email you launch details before orders open.</li><li>You decide whether to subscribe. Dates are to be announced.</li></ol>
+            </div>
+          </div>
+          <div class="form-card">
+          <form class="signup-form" id="page-signup" novalidate>
+            <div class="field-row">
+              <div class="field"><label for="page-signup-name">First name <span class="req" aria-hidden="true">*</span></label><input id="page-signup-name" name="name" autocomplete="given-name" required></div>
+              <div class="field"><label for="page-signup-zip">ZIP code <span class="optional">(optional)</span></label><input id="page-signup-zip" name="zip" inputmode="numeric" maxlength="5" autocomplete="postal-code"></div>
+            </div>
+            <div class="field"><label for="page-signup-email">Email address <span class="req" aria-hidden="true">*</span></label><input id="page-signup-email" name="email" type="email" autocomplete="email" required></div>
+            <div class="field">
+              <label for="page-signup-plan">Which plan interests you?</label>
+              <select id="page-signup-plan" name="plan">
+                <option value="monthly">Monthly · 1 city at a time</option>
+                <option value="season" selected>Seasonal · 3 cities</option>
+                <option value="route">Full Route · all 12 cities</option>
+                <option value="gift">A gift for someone</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+            <label class="check"><input type="checkbox" name="maker"> <span>I run a small food business and want to be considered for a box.</span></label>
+            <p class="form-message" id="page-signup-msg" role="alert" aria-live="polite"></p>
+            <button class="button button-ink button-block" type="submit">Count me in </button>
+            <p class="privacy-note">Free to join, not a purchase. This preview doesn’t send or store email addresses.</p>
+          </form>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="footer-big" href="index.html" aria-label="Marlowby home">marlowby<span>.</span></a>
+          <p>Explore your city,<br>one box at a time.</p>
+        </div>
+        <nav class="footer-col" aria-label="Explore">
+          <h2>Explore</h2>
+          <a href="route.html">The route</a>
+          <a href="plans.html">Plans &amp; pricing</a>
+          <a href="join.html">Join the waitlist</a>
+        </nav>
+        <nav class="footer-col" aria-label="Company">
+          <h2>Company</h2>
+          <a href="about.html">About &amp; mission</a>
+          <a href="works-cited.html">Works cited</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Marlowby. A fictional company created for a BPA website design event.</span>
+        <span>Food photography via Unsplash · <a href="works-cited.html">Credits</a></span>
+        <a href="#main">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>

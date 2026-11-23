@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#faf5ed">
+    <meta name="description" content="Marlowby plans: Monthly, Seasonal for three cities, or the Full Route for all twelve. Prices announced at launch. Free shipping in the contiguous U.S.">
+    <meta property="og:title" content="Plans & Pricing — Marlowby">
+    <meta property="og:description" content="Marlowby plans: Monthly, Seasonal for three cities, or the Full Route for all twelve. Prices announced at launch. Free shipping in the contiguous U.S.">
+    <meta property="og:type" content="website">
+    <title>Plans & Pricing — Marlowby</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400..800;1,400&amp;family=DM+Serif+Display:ital@0;1&amp;display=swap">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Marlowby home">marlowby<span>.</span></a>
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="route.html">The route</a>
+        <a href="plans.html" aria-current="page">Plans</a>
+        <a href="about.html">About</a>
+        <a class="nav-cta" href="join.html">Join the waitlist</a>
+      </nav>
+      <div class="header-tools">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="menu-toggle-label">Menu</span><span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <header class="page-header">
+        <div class="inner">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Plans</span></nav>
+          <h1>Choose <em>a plan.</em></h1>
+          <p class="lede">Every plan includes the same box: local finds from that month’s city, a printed field guide, and free shipping in the contiguous United States. Prices will be announced at launch.</p>
+        </div>
+      </header>
+
+      <section class="section section-sm">
+        <div class="inner">
+          <h2 class="sr-only">Plans</h2>
+          <div class="plan-cards" data-plan-cards></div>
+          <p class="fine center">Founding members keep their launch price for as long as they stay subscribed.</p>
+        </div>
+      </section>
+
+
+      <section class="section">
+        <div class="inner">
+          <p class="kicker"><span>Compare plans</span></p>
+          <h2 class="gap-lg">Compare <em>the plans.</em></h2>
+          <div class="table-wrap" tabindex="0" role="region" aria-label="Plan comparison table">
+            <table class="compare">
+              <caption class="sr-only">Comparison of Marlowby subscription plans</caption>
+              <thead><tr><th scope="col">Included</th><th scope="col">Monthly</th><th scope="col">Seasonal</th><th scope="col">Full Route</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">Price</th><td>Announced at launch</td><td>Announced at launch</td><td>Announced at launch</td></tr>
+                <tr><th scope="row">Local finds + field guide</th><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+                <tr><th scope="row">Shipping, contiguous U.S.</th><td>Included</td><td>Included</td><td>Included</td></tr>
+                <tr><th scope="row">Skip a month</th><td>Anytime</td><td>Once per plan</td><td>A few times a year</td></tr>
+                <tr><th scope="row">Help choose future cities</th><td>—</td><td>Yes</td><td>Yes</td></tr>
+                <tr><th scope="row">Collector’s route poster</th><td>—</td><td>—</td><td>In the final box</td></tr>
+                <tr><th scope="row">Available as a gift</th><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="split-photo orange">
+        <div class="photo"><img src="images/food/peaches.jpg" data-fallback="https://images.unsplash.com/photo-1692561796478-3c43d6656e42?auto=format&amp;fit=crop&amp;w=1100&amp;q=80" alt="A box of fresh peaches" loading="lazy"></div>
+        <div class="copy">
+          <p class="kicker"><span>Gifting</span></p>
+          <h2>Give it <em>as a gift.</em></h2>
+          <p>Any plan can be sent as a gift. Choose a plan and a start month, and we’ll include a printed card with your message.</p>
+          <ul class="ticks"><li>Pick the start month</li><li>Printed message card in the first box</li><li>Ends on its own, never renews</li></ul>
+          <a class="button button-ink" href="join.html?plan=gift">Plan a gift</a>
+        </div>
+      </section>
+
+    </main>
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="footer-big" href="index.html" aria-label="Marlowby home">marlowby<span>.</span></a>
+          <p>Explore your city,<br>one box at a time.</p>
+        </div>
+        <nav class="footer-col" aria-label="Explore">
+          <h2>Explore</h2>
+          <a href="route.html">The route</a>
+          <a href="plans.html">Plans &amp; pricing</a>
+          <a href="join.html">Join the waitlist</a>
+        </nav>
+        <nav class="footer-col" aria-label="Company">
+          <h2>Company</h2>
+          <a href="about.html">About &amp; mission</a>
+          <a href="works-cited.html">Works cited</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Marlowby. A fictional company created for a BPA website design event.</span>
+        <span>Food photography via Unsplash · <a href="works-cited.html">Credits</a></span>
+        <a href="#main">Back to top ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
